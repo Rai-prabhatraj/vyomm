@@ -1,0 +1,200 @@
+{
+  "names": [
+    "TECHNICAL",
+    "SPORTS",
+    "E-SPORTS",
+    "CULTURAL",
+    "COMPETITIONS"
+  ],
+
+  "Day":[
+    "Day-1"
+
+  ],
+  "posts": [
+    [
+      {
+        "id": "hackathon",
+        "title": "Hackathon",
+        "img": "/hackathon/hackathon.png",
+        "content": "Hold steady for the king of the show, the ultimate showdown!",
+        "description": "Vyom '24 presents you with an incredible 12-hour hackathon that will bring you an opportunity to space out into the realm of coding. Get ready for this game-changing hackathon based on software development and extract your creativity without any barriers. Create solutions to various problem statements and win!",
+        "c1name": "XYZ",
+        "c2name": "ZYY",
+        "c1no": "1234568798",
+        "c2no": "1234567890",
+        "pricepool": "......",
+        "regfee": 0,
+        "mode": "Offline",
+        "date": "April 4th & 5th (12 hrs)",
+        "embed": false,
+        "reglink": "https://",
+        "reg": "Register Now",
+        "ruleheader": "Code of Conduct",
+        "rules": {
+          "rule1": "We are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.",
+          "rule2": "We do not tolerate harassment of participants, volunteers, sponsors or anyone else associated with the community in any form.",
+          "rule3": "Language and imagery is not appropriate for any of our events, including talks, webinars, and other online media.",
+          "rule4": "Participants violating these rules may be sanctioned or expelled at the discretion of the organizers.",
+          "rule5": "If you feel uncomfortable or harassed at any of our events or communication channels, please report it to the coordinators via text or voice call.",
+          "rule6": "",
+          "rule7": "",
+          "rule8": "",
+          "rule9": "",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
+      }
+    ],
+    [
+      {
+        "id": "hackathon",
+        "title": "Hackathon",
+        "img": "/hackathon/hackathon.png",
+        "content": "Hold steady for the king of the show, the ultimate showdown!",
+        "description": "Vyom '24 presents you with an incredible 12-hour hackathon that will bring you an opportunity to space out into the realm of coding. Get ready for this game-changing hackathon based on software development and extract your creativity without any barriers. Create solutions to various problem statements and win!",
+        "c1name": "XYZ",
+        "c2name": "ZYY",
+        "c1no": "1234568798",
+        "c2no": "1234567890",
+        "pricepool": "......",
+        "regfee": 0,
+        "mode": "Offline",
+        "date": "April 4th & 5th (12 hrs)",
+        "embed": false,
+        "reglink": "https://",
+        "reg": "Register Now",
+        "ruleheader": "Code of Conduct",
+        "rules": {
+          "rule1": "We are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.",
+          "rule2": "We do not tolerate harassment of participants, volunteers, sponsors or anyone else associated with the community in any form.",
+          "rule3": "Language and imagery is not appropriate for any of our events, including talks, webinars, and other online media.",
+          "rule4": "Participants violating these rules may be sanctioned or expelled at the discretion of the organizers.",
+          "rule5": "If you feel uncomfortable or harassed at any of our events or communication channels, please report it to the coordinators via text or voice call.",
+          "rule6": "",
+          "rule7": "",
+          "rule8": "",
+          "rule9": "",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
+      }
+ 
+    ],
+    [
+      {
+        "id": "hackathon",
+        "title": "Hackathon",
+        "img": "/hackathon/hackathon.png",
+        "content": "Hold steady for the king of the show, the ultimate showdown!",
+        "description": "Vyom '24 presents you with an incredible 12-hour hackathon that will bring you an opportunity to space out into the realm of coding. Get ready for this game-changing hackathon based on software development and extract your creativity without any barriers. Create solutions to various problem statements and win!",
+        "c1name": "XYZ",
+        "c2name": "ZYY",
+        "c1no": "1234568798",
+        "c2no": "1234567890",
+        "pricepool": "......",
+        "regfee": 0,
+        "mode": "Offline",
+        "date": "April 4th & 5th (12 hrs)",
+        "embed": false,
+        "reglink": "https://",
+        "reg": "Register Now",
+        "ruleheader": "Code of Conduct",
+        "rules": {
+          "rule1": "We are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.",
+          "rule2": "We do not tolerate harassment of participants, volunteers, sponsors or anyone else associated with the community in any form.",
+          "rule3": "Language and imagery is not appropriate for any of our events, including talks, webinars, and other online media.",
+          "rule4": "Participants violating these rules may be sanctioned or expelled at the discretion of the organizers.",
+          "rule5": "If you feel uncomfortable or harassed at any of our events or communication channels, please report it to the coordinators via text or voice call.",
+          "rule6": "",
+          "rule7": "",
+          "rule8": "",
+          "rule9": "",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
+      }
+ 
+    ],
+    [
+      {
+        "id": "hackathon",
+        "title": "Hackathon",
+        "img": "/hackathon/hackathon.png",
+        "content": "Hold steady for the king of the show, the ultimate showdown!",
+        "description": "Vyom '24 presents you with an incredible 12-hour hackathon that will bring you an opportunity to space out into the realm of coding. Get ready for this game-changing hackathon based on software development and extract your creativity without any barriers. Create solutions to various problem statements and win!",
+        "c1name": "XYZ",
+        "c2name": "ZYY",
+        "c1no": "1234568798",
+        "c2no": "1234567890",
+        "pricepool": "......",
+        "regfee": 0,
+        "mode": "Offline",
+        "date": "April 4th & 5th (12 hrs)",
+        "embed": false,
+        "reglink": "https://",
+        "reg": "Register Now",
+        "ruleheader": "Code of Conduct",
+        "rules": {
+          "rule1": "We are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.",
+          "rule2": "We do not tolerate harassment of participants, volunteers, sponsors or anyone else associated with the community in any form.",
+          "rule3": "Language and imagery is not appropriate for any of our events, including talks, webinars, and other online media.",
+          "rule4": "Participants violating these rules may be sanctioned or expelled at the discretion of the organizers.",
+          "rule5": "If you feel uncomfortable or harassed at any of our events or communication channels, please report it to the coordinators via text or voice call.",
+          "rule6": "",
+          "rule7": "",
+          "rule8": "",
+          "rule9": "",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
+      }
+ 
+    ],
+    [
+      {
+        "id": "hackathon",
+        "title": "Hackathon",
+        "img": "/hackathon/hackathon.png",
+        "content": "Hold steady for the king of the show, the ultimate showdown!",
+        "description": "Vyom '24 presents you with an incredible 12-hour hackathon that will bring you an opportunity to space out into the realm of coding. Get ready for this game-changing hackathon based on software development and extract your creativity without any barriers. Create solutions to various problem statements and win!",
+        "c1name": "XYZ",
+        "c2name": "ZYY",
+        "c1no": "1234568798",
+        "c2no": "1234567890",
+        "pricepool": "......",
+        "regfee": 0,
+        "mode": "Offline",
+        "date": "April 4th & 5th (12 hrs)",
+        "embed": false,
+        "reglink": "https://",
+        "reg": "Register Now",
+        "ruleheader": "Code of Conduct",
+        "rules": {
+          "rule1": "We are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.",
+          "rule2": "We do not tolerate harassment of participants, volunteers, sponsors or anyone else associated with the community in any form.",
+          "rule3": "Language and imagery is not appropriate for any of our events, including talks, webinars, and other online media.",
+          "rule4": "Participants violating these rules may be sanctioned or expelled at the discretion of the organizers.",
+          "rule5": "If you feel uncomfortable or harassed at any of our events or communication channels, please report it to the coordinators via text or voice call.",
+          "rule6": "",
+          "rule7": "",
+          "rule8": "",
+          "rule9": "",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
+      }
+ 
+    ]
+  ]
+}

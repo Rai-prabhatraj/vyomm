@@ -1,0 +1,78 @@
+{
+  "roles": [
+    {
+      "name": "Partners",
+      "sponsors": [
+        {
+          "id": "",
+          "name": "",
+          "post": "",
+          "img": "/sponsors/logo.png",
+          "website": "",
+          "linkedin": ""
+        },
+        {
+          "id": "t1",
+          "name": "",
+          "post": "",
+          "img": "/sponsors/logo.png",
+          "website": "",
+          "linkedin": ""
+        },
+        {
+          "id": "t2",
+          "name": "",
+          "post": "",
+          "img": "/sponsors/logo.png",
+          "website": "",
+          "linkedin": ""
+        },
+        {
+          "id": "vr",
+          "name": "",
+          "post": "",
+          "img": "/sponsors/logo.png",
+          "website": "",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "name": "Event Sponsors",
+      "sponsors": [
+        {
+          "id": "webhunt",
+          "name": "",
+          "post": "",
+          "img": "/sponsors/logo.png",
+          "website": "",
+          "linkedin": ""
+        },
+        {
+          "id": "fossunited",
+          "name": "",
+          "post": "",
+          "img": "/sponsors/logo.png",
+          "website": "",
+          "linkedin": ""
+        },
+        {
+          "id": "tryzens",
+          "name": "",
+          "post": "",
+          "img": "/sponsors/logo.png",
+          "website": "",
+          "linkedin": ""
+        },
+        {
+          "id": "tryzens",
+          "name": "",
+          "post": "",
+          "img": "/sponsors/logo.png",
+          "website": "",
+          "linkedin": ""
+        }
+      ]
+    }
+  ]
+}
