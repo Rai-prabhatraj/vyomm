@@ -53,7 +53,7 @@ const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const [loading, setLoading] = React.useState(false);
-  const [initialLoading, setInitialLoading] = React.useState(true);
+  const [ setInitialLoading] = React.useState(true);
   const [showPreloader, setShowPreloader] = useState(true);
 
   useEffect(() => {
