@@ -27,7 +27,7 @@ export default function Title({ route }) {
 
   const defaultPhrase = {
     title: "Vyom '24",
-    description: "Solve. Create. Thrive. Vyom '24 is the annual inter-college tech fest of STIST. Come join the fun."
+    description: "Solve. Create. Thrive. Vyom '24 is the annual intra-college tech fest of Rungta. Come join the fun."
   }
 
   const welcomePhrase = {
@@ -51,7 +51,7 @@ export default function Title({ route }) {
         description,
         images: [
           {
-            url: 'https://Vyom.org/seo.png',
+            url: 'https://Vyom.org/logo.png',
             width: 1200,
             height: 630,
             alt: 'Vyom - Solve.Create.Thrive',

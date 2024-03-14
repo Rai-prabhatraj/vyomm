@@ -46,9 +46,9 @@ const font_akira = LocalFont({
   variable: "--font-akira"
 })
 
-const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
-  ssr: false,
-});
+// const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
+//   ssr: false,
+// });
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -60,14 +60,14 @@ export default function MyApp({ Component, pageProps }) {
     // Set timeout to hide preloader after certain time
     const timeout = setTimeout(() => {
       setShowPreloader(false);
-    }, 3900);
+    }, 4500);
     return () => clearTimeout(timeout);
   }, []);
 
   React.useEffect(() => {
-    setTimeout(() => {
-      setInitialLoading(false);
-    }, 2700);
+    // setTimeout(() => {
+    //   setInitialLoading(false);
+    // }, 2700);
 
     const handleStart = () => {
       setLoading(true);
@@ -116,8 +116,9 @@ export default function MyApp({ Component, pageProps }) {
           >
             <Component {...pageProps} />
             <Analytics />
+          
 
-            <AnimatedCursor
+            {/* <AnimatedCursor
               innerSize={12}
               outerSize={20}
               trailingSpeed={15}
@@ -138,7 +139,7 @@ export default function MyApp({ Component, pageProps }) {
                 "button",
                 ".link",
               ]}
-            />
+            /> */}
           </main>
         </motion.div>
       )}

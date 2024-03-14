@@ -2,7 +2,7 @@ import React from "react";
 import Navlink from "./Navlink";
 import Link from "next/link";
 import { FiArrowDownRight } from "react-icons/fi";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaStore } from "react-icons/fa";
 import {AiOutlineGlobal} from "react-icons/ai"
 
 export default function Footer() {
@@ -21,7 +21,7 @@ export default function Footer() {
           <Link
             href="mailto:contact@Vyom.org"
             className="font-chakra font-semibold italic text-2xl">
-            contact@vyom.org
+            vyom@rungta.ac.in
           </Link>
         </div>
 
@@ -34,7 +34,7 @@ export default function Footer() {
               <Navlink name={"Brochure"} link={"/brochure.pdf"} />
             </div>
             <div className="flex flex-col gap-2">
-              <Navlink name={"Team"} link={"/teams"} />
+               <Navlink name={"Merchandise"}  target={"_blank"} rel={"noopener  noreferrer"} link={"https://rungta.campusmall.in/"} />
               <Navlink name={"Contact"} link={"/contact"} />
             </div>
           </div>
@@ -62,10 +62,11 @@ export default function Footer() {
                 <FaInstagram size="3rem" />
               </Link>
               <Link
-                href="https://whatsapp.com/channel"
+              target="_blank" rel="noopener  noreferrer" 
+                href="https://rungta.campusmall.in/"
                 className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:text-main_primary"
               >
-                <FaWhatsapp size="3rem" />
+                <FaStore size="3rem" />
               </Link>
             </div>
           </div>
@@ -75,7 +76,7 @@ export default function Footer() {
       <div className="font-clash flex justify-between py-2 text-[10px] md:text-xs px-4 border-t-[1.5px] border-gray/40">
         <p>©2024 - VYOM 2k24 </p>
         <span className="flex gap-4">
-          {/* <p>Template forked from <Link href={'https://github.com/Edwinliby/Darpan'}>darpan by @edwinliby</Link></p> */}
+         
         </span>
       </div>
     </footer>

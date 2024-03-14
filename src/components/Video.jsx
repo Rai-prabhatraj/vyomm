@@ -1,6 +1,8 @@
-import { useEffect, useRef } from "react";
+
+import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { HiSpeakerWave, HiSpeakerXMark } from "react-icons/hi2";
 
 function Video() {
   gsap.registerPlugin(ScrollTrigger);
@@ -8,12 +10,18 @@ function Video() {
   const videoRef = useRef(null);
   const textRef = useRef(null);
   const triggerRef = useRef(null);
+  const [isMuted, setMuted] = useState(false)
 
   useEffect(() => {
     videoRef.current.addEventListener("ended", () => {
-      videoRef.current.currentTime = 15;
+      console.log("video ended");
+      videoRef.current.currentTime = 10;
       videoRef.current.play();
+      
     });
+
+
+
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: triggerRef.current,
@@ -27,30 +35,35 @@ function Video() {
       {
         translateY: -300,
       },
-      0,
+      0
     );
     tl.to(
       videoRef.current,
       {
-        filter: "sepla(50%)",
+        filter: "grayscale(80%)",
       },
-      0,
+      0
     );
   }, []);
 
+  const toggleMute = () => {
+    videoRef.current.muted = !videoRef.current.muted;
+    setMuted(videoRef.current.muted)
+  };
+
   return (
-    <div ref={triggerRef} className="video-section hidden xl:block">
-      <video ref={videoRef} autoPlay playsInline loop muted={false}>
-        <source src="/desktop.webm" type="video/webm" />
-        <source src="/desktop.mp4" type="video/mp4" />
-      </video>
+    <>
+    <div className="text-3xl text-amber-50 fixed bottom-10 right-10 md:right-20 z-50" onClick={toggleMute}>{isMuted ? <HiSpeakerXMark /> : <HiSpeakerWave />}</div>
+        <div ref={triggerRef} className="video-section hidden xl:block">
+      <video ref={videoRef} src="/desktop.mp4" autoPlay muted={false}></video>
       <div className="video-copy">
         <h1 ref={textRef} className="vidVyom font-bebas">
           VYOM
         </h1>
-      
       </div>
     </div>
+    </>
+
   );
 }
 

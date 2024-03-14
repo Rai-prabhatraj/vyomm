@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 function Navlink(
-    { name, link, setToggle }
+    { name, link, setToggle, target, rel }
 ) {
     const element = React.useRef(null);
 
@@ -41,11 +41,18 @@ function Navlink(
 
     return (
         <div>
-            <Link href={link} ref={element} data-value={name} onClick={() => setToggle(false)}>
+            {/* onClick={() => setToggle(false)} */}
+            <Link href={link} ref={element} target={target} rel={rel} data-value={name} >
                 {name}
             </Link>
         </div>
     )
 }
+
+Navlink.defaultProps = {
+    target: '_self',
+    rel: 'prefetch'
+}
+
 
 export default Navlink

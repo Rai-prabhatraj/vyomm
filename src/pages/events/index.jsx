@@ -37,7 +37,7 @@ export default function Events({ posts, names, }) {
       {/* <progress max="100" value="0"></progress> */}
 
       <main>
-        <div className="relative w-screen h-full">
+        <div className="relative w-screen h-[8rem] md:h-full">
           <Image
             alt="Banner"
             src={"/banner.jpg"}
@@ -50,7 +50,7 @@ export default function Events({ posts, names, }) {
             <span className="text-[1rem] pt-12 md:pt-16 md:text-[4rem] z-10">
               VYOM'24
             </span>
-            <span className="text-[2.5rem] tracking-wider z-10">EVENTS</span>
+            <span className="text-[2.5rem] tracking-wider z-10 mt-12">EVENTS</span>
           </div>
         </div>
         <div className="text-[1rem] p-8 font-semibold font-chakra flex flex-wrap gap-4 md:gap-12 justify-center text-white">

@@ -33,8 +33,8 @@ export default function About() {
   }, []);
 
   return (
-    <div className="h-fit relative pt-4 px-2 xl:px-20  ">
-      <div className="about flex flex-wrap text-white tracking-wide xl:tracking-[.5rem]  text-[2.7rem] sm:text-[4.3rem] md:text-[6rem] lg:text-[5.5rem] xl:text-[6.7rem]  leading-[3rem] md:leading-[5rem] font-clash font-bold mt-16">
+    <div className="h-fit relative pt-4 px-[3rem] xl:px-20  ">
+      <div className="about flex flex-wrap text-white tracking-wide xl:tracking-[.5rem]  text-[2.7rem] sm:text-[4.3rem] md:text-[6rem] lg:text-[5.5rem] xl:text-[6.7rem]  leading-[normal] md:leading-[5rem] font-clash font-bold mt-16">
         <span>Okay cool! But</span>
         <span>hold on, what is</span>
         <span
@@ -67,7 +67,7 @@ export default function About() {
         </span>
       </div>
       <div className="absolute font-clash font-bold text-white">
-        <span className="flex gap-6 text-[2.5rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5rem] xl:text-[5.5rem]">
+        <span className="flex gap-6 text-[2.3rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5rem] xl:text-[5.5rem]">
           About <Navlink name={"RUNGTA"} link={"/#about"} />{" "}
         </span>
       </div>

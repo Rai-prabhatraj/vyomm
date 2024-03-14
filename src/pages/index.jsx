@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import Faq from "@/components/Faq";
 import Clock from "@/components/Clock";
 import Map from "@/components/Map";
-
+import Marque3 from "@/components/Marque3";
 import gsap from "gsap";
 import RitModel from "@/components/RitModel";
 import EventSlider from "@/components/EventSlider";
@@ -73,6 +73,7 @@ const Home = () => {
       <section id="faq">
         <Faq />
       </section>
+      <Marque3 />
 
       <Map />
       <Footer />
