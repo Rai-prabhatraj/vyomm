@@ -53,7 +53,7 @@ const font_akira = LocalFont({
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const [loading, setLoading] = React.useState(false);
-  const [ setInitialLoading] = React.useState(true);
+
   const [showPreloader, setShowPreloader] = useState(true);
 
   useEffect(() => {

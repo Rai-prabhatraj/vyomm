@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 function Navlink(
-    { name, link, setToggle, target, rel }
+    { name, link, target, rel }
 ) {
     const element = React.useRef(null);
 
