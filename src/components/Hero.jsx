@@ -50,7 +50,7 @@ function Hero() {
         className="absolute top-0 left-0 w-full h-full object-cover bg-slate-300 opacity-50"
       >
         <source src="/mobile.webm" type="video/webm" />
-        <source src="/mobile.mp4" type="video/mp4" />
+        
       </video>
 
       <div className="text-white flex flex-col pt-[8rem] uppercase font-extrabold md:ml-[1rem] lg:ml-[2rem] px-5 ">

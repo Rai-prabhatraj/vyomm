@@ -3,9 +3,9 @@ import { NextSeo } from "next-seo";
 export default function Title({ route }) {
 
   const phrases = {
-    '/signup': {
-      title: 'SignUp - Vyom',
-      description: "Sign up with a new account to view your registrations for Vyom '24"
+    '/merchandise': {
+      title: 'Merchandise - Vyom',
+      description: "Get Ready for Vyom '24 with your cool Merch"
     },
     '/events': {
       title: 'Events - Vyom',
@@ -13,7 +13,7 @@ export default function Title({ route }) {
     },
     '/sponsors': {
       title: 'Sponsors - Vyom',
-      description: "Sponsors from all over the country make Vyom possible! See who's sponoring us."
+      description: "Sponsors from all over the country make Vyom possible! See who's sponsoring us."
     },
     '/teams': {
       title: 'Teams - Vyom',
@@ -27,7 +27,7 @@ export default function Title({ route }) {
 
   const defaultPhrase = {
     title: "Vyom '24",
-    description: "Solve. Create. Thrive. Vyom '24 is the annual intra-college tech fest of Rungta. Come join the fun."
+    description: "An Annual Potpourri of Culture, Technology & Sports. Vyom '24 is the annual intra-college tech fest of Rungta Educational Foundation. Come join the fun."
   }
 
   const welcomePhrase = {
@@ -44,17 +44,17 @@ export default function Title({ route }) {
   return <NextSeo
       title={title}
       description={description}
-      canonical="https://www.Vyom.org/"
+      canonical="https://vyom.rungta.ac.in/"
       openGraph={{
-        url: `https://www.Vyom.org${route}`,
+        url: `https://vyom.rungta.ac.in/${route}`,
         title,
         description,
         images: [
           {
-            url: 'https://Vyom.org/logo.png',
+            url: 'https://vyom.rungta.ac.in/logo.png',
             width: 1200,
             height: 630,
-            alt: 'Vyom - Solve.Create.Thrive',
+            alt: 'Vyom - An Annual Potpourri of Culture, Technology & Sports.',
             type: 'image/png',
           }
         ],

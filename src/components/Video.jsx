@@ -55,7 +55,7 @@ function Video() {
     <>
     <div className="text-3xl text-amber-50 fixed bottom-10 right-10 md:right-20 z-50" onClick={toggleMute}>{isMuted ? <HiSpeakerXMark /> : <HiSpeakerWave />}</div>
         <div ref={triggerRef} className="video-section hidden xl:block">
-      <video ref={videoRef} src="/desktop.mp4" autoPlay muted={false}></video>
+      <video ref={videoRef} src="/desktop.webm" autoPlay muted={false}></video>
       <div className="video-copy">
         <h1 ref={textRef} className="vidVyom font-bebas">
           VYOM

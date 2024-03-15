@@ -48,10 +48,6 @@ export default function Header() {
       action: '/sponsors'
     },
     {
-      label: 'About',
-      action: '/#about'
-    },
-    {
       label: 'FAQ',
       action: '/#faq'
     },
@@ -60,8 +56,8 @@ export default function Header() {
       action: '/brochure.pdf'
     },
     {
-      label: 'Signup',
-      action: '/signup'
+      label: 'Merchandise',
+      action: 'https://rungta.campusmall.in/'
     }
   ]
 

@@ -9,7 +9,7 @@ export default function InitialLoader() {
       <Title route={router.pathname} />
       <video autoPlay loop muted={false} playsInline className="w-screen h-screen">
         <source src="/preloader.webm" type="video/webm" />
-        <source src="/preloader.mp4" type="video/mp4" />
+       
       </video>
     </div>
   );
