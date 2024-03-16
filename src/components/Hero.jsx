@@ -11,11 +11,11 @@ function Hero() {
 
   useEffect(() => {
     //loop the video from 0:03 to 0:06
-    render.current.currentTime = 0.5;
+    render.current.currentTime = 10;
     render.current.addEventListener("timeupdate", function () {
-      if (this.currentTime > 9) {
-        this.currentTime = 0.5;
-      }
+      // if (this.currentTime > 9) {
+      //   this.currentTime = 0.5;
+      // }
     });
     gsap.fromTo(
       title.current,
@@ -43,14 +43,15 @@ function Hero() {
     <div className="hero relative xl:hidden py-8 h-fit flex flex-col uppercase justify-center">
       <video
         ref={render}
+        src="/dd.mp4"
         loop
         autoPlay
         playsInline
         muted
         className="absolute top-0 left-0 w-full h-full object-cover bg-slate-300 opacity-50"
       >
-        <source src="/mobile.webm" type="video/webm" />
-        
+        {/* <source src="/mobile.webm" type="video/webm" />
+        <source src="/mobile.mp4" type="video/mp4" /> */}
       </video>
 
       <div className="text-white flex flex-col pt-[8rem] uppercase font-extrabold md:ml-[1rem] lg:ml-[2rem] px-5 ">

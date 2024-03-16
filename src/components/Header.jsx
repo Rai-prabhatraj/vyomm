@@ -47,16 +47,13 @@ export default function Header() {
       label: 'Sponsors',
       action: '/sponsors'
     },
-    {
-      label: 'FAQ',
-      action: '/#faq'
-    },
+   
     {
       label: 'Brochure',
       action: '/brochure.pdf'
     },
     {
-      label: 'Merchandise',
+      label: 'Merch',
       action: 'https://rungta.campusmall.in/'
     }
   ]

@@ -23,12 +23,13 @@ export default function Preloader() {
         <video
           ref={ref}
           autoPlay
-          playsInline
+          // playsInline
           loop
-          muted={false}
+          muted
           className="w-full h-full object-cover"
         >
-          <source src="/marvel.mp4" type="video/mp4" />
+          {/* <source src="/desktop.mp4" type="video/mp4" /> */}
+          <source src="/dd.mp4" type="video/mp4" />
         </video>
       </div>
       <motion.div
@@ -38,13 +39,13 @@ export default function Preloader() {
           visible: { opacity: 0 },
           hidden: { opacity: 1 },
         }}
-        transition={{ duration: 0.9 }}
+        transition={{ duration: 0.5 }}
         className="fixed top-0 left-0 w-full h-full z-50"
       >
         <div className="w-full h-full bg-black">
-          <video autoPlay playsInline loop muted className="w-full h-full object-cover">
-            <source src="/preloader.webm" type="video/webm" />
-           
+          <video autoPlay playsInline loop muted={false} className="w-full h-full object-cover">
+            {/* <source src="/preloader.mp4" type="video/mp4" /> */}
+            <source src="/pre.mp4" type="video/mp4" />
           </video>
         </div>
       </motion.div>

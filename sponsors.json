@@ -1,15 +1,15 @@
 {
   "roles": [
     {
-      "name": "Partners",
+      "name": "Event Sponsors",
       "sponsors": [
         {
           "id": "",
-          "name": "",
+          "name": "ANM EDUCARE",
           "post": "",
-          "img": "/sponsors/logo.png",
+          "img": "/sponsors/anm.png",
           "website": "",
-          "linkedin": ""
+          "linkedin": "https://in.linkedin.com/in/anm-educare-a63672272?"
         },
         {
           "id": "t1",
@@ -34,12 +34,8 @@
           "img": "/sponsors/logo.png",
           "website": "",
           "linkedin": ""
-        }
-      ]
-    },
-    {
-      "name": "Event Sponsors",
-      "sponsors": [
+        },
+   
         {
           "id": "webhunt",
           "name": "",

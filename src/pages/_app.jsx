@@ -59,7 +59,7 @@ export default function MyApp({ Component, pageProps }) {
     // Set timeout to hide preloader after certain time
     const timeout = setTimeout(() => {
       setShowPreloader(false);
-    }, 4500);
+    }, 4000);
     return () => clearTimeout(timeout);
   }, []);
 
@@ -72,7 +72,7 @@ export default function MyApp({ Component, pageProps }) {
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
-      }, 2700);
+      }, 4000);
     };
 
     router.events.on(

@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-2">
                <Navlink name={"Merchandise"}  target={"_blank"} rel={"noopener  noreferrer"} link={"https://rungta.campusmall.in/"} />
-              <Navlink name={"Contact"} link={"/contact"} />
+           
             </div>
           </div>
         </div>
