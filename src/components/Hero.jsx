@@ -43,7 +43,7 @@ function Hero() {
     <div className="hero relative xl:hidden py-8 h-fit flex flex-col uppercase justify-center">
       <video
         ref={render}
-        src="/dd.mp4"
+        src="https://i.imgur.com/v1B0rHl.mp4"
         loop
         autoPlay
         playsInline

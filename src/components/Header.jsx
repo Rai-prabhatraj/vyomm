@@ -47,7 +47,6 @@ export default function Header() {
       label: 'Sponsors',
       action: '/sponsors'
     },
-   
     {
       label: 'Brochure',
       action: '/brochure.pdf'
@@ -55,6 +54,10 @@ export default function Header() {
     {
       label: 'Merch',
       action: 'https://rungta.campusmall.in/'
+    },
+    {
+      label: 'Event Links',
+      action: '/eventlinks'
     }
   ]
 
@@ -134,7 +137,9 @@ export default function Header() {
             </div>
           </div>
         </motion.div>
+        
       )}
+        
     </>
   );
 }

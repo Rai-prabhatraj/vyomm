@@ -54,7 +54,7 @@ function Video() {
   return (
     <>
         <div ref={triggerRef} className="video-section hidden xl:block">
-      <video ref={videoRef} src="/dd.mp4" autoPlay muted></video>
+      <video ref={videoRef} src="https://i.imgur.com/v1B0rHl.mp4" autoPlay muted></video>
       <div className="video-copy">
         <h1 ref={textRef} className="vidVyom font-bebas">
           VYOM

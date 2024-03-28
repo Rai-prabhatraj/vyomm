@@ -12,7 +12,7 @@ export default function Loader() {
 // }
 return (
   <div className="loader w-screen h-screen bg-black z-[28] ">
-    <video src="/pre.mp4" autoPlay loop muted={false} className="w-full h-full object-cover"></video>
+    <video src="https://i.imgur.com/86MsBC7.mp4" autoPlay loop muted={false} className="w-full h-full object-cover"></video>
   </div>
 )
 }

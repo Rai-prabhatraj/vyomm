@@ -13,9 +13,10 @@ import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
 import { Analytics } from "@vercel/analytics/react";
 import InitialLoader from "@/components/InitialLoader";
-import { useState, useEffect } from 'react';
-
-
+import { useState, useEffect } from "react";
+import { ChakraProvider } from "@chakra-ui/react";
+import theme from "../styles/theme";
+// import theme from "@/styles/theme";
 
 const font_chakra = Chakra_Petch({
   subsets: ["latin"],
@@ -42,8 +43,8 @@ const font_clash_display = LocalFont({
 
 const font_akira = LocalFont({
   src: "../fonts/akira.otf",
-  variable: "--font-akira"
-})
+  variable: "--font-akira",
+});
 
 // const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
 //   ssr: false,
@@ -95,12 +96,11 @@ export default function MyApp({ Component, pageProps }) {
     return <InitialLoader />;
   }
 
-
   return (
     <>
-    <Head>
-      <link rel="shortcut icon" href={`/favicon.ico`} type="image/png" />
-    </Head>
+      <Head>
+        <link rel="shortcut icon" href={`/favicon.ico`} type="image/png" />
+      </Head>
       {loading ? (
         <Loader />
       ) : (
@@ -113,32 +113,10 @@ export default function MyApp({ Component, pageProps }) {
           <main
             className={`${font_chakra.variable} ${font_clash_display.variable} ${font_akira.variable} ${font_ibm.variable} ${font_bebas.variable}`}
           >
+            <ChakraProvider theme={theme}>
             <Component {...pageProps} />
+            </ChakraProvider>
             <Analytics />
-          
-
-            {/* <AnimatedCursor
-              innerSize={12}
-              outerSize={20}
-              trailingSpeed={15}
-              color="144, 22, 10"
-              outerAlpha={0.7}
-              innerScale={1.5}
-              outerScale={2}
-              clickables={[
-                "a",
-                'input[type="text"]',
-                'input[type="email"]',
-                'input[type="number"]',
-                'input[type="submit"]',
-                'input[type="image"]',
-                "label[for]",
-                "select",
-                "textarea",
-                "button",
-                ".link",
-              ]}
-            /> */}
           </main>
         </motion.div>
       )}

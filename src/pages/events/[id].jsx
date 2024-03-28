@@ -86,22 +86,22 @@ function EventsDetails(props) {
 
                   <div className="grid grid-cols-2 pt-6 text-[1.1rem] tracking-wide w-fit font-medium">
                     <div className="flex flex-col pr-4">
-                      {props.pricepool != false && <span>Prize Pool :</span>}
+                      {/* {props.pricepool != false && <span>Prize Pool :</span>}
                       <span>Reg Fee:</span>
                       {props.deposit == null ? null : (
                         <span>Caution deposit:</span>
-                      )}
+                      )} */}
                       <span>Date:</span>
-                      <span>Mode:</span>
+                      <span>Venue:</span>
                     </div>
                     <div className="flex flex-col text-white font-bold">
-                      {props.pricepool != false && (
+                      {/* {props.pricepool != false && (
                         <span className="font-normal"> ₹{props.pricepool}</span>
                       )}
                       <span className="font-normal"> ₹{props.regfee}</span>
                       {props.deposit == null ? null : (
                         <span className="font-normal">₹{props.deposit}</span>
-                      )}
+                      )} */}
                       <span className="font-normal"> {props.date}</span>
                       <span className="font-normal"> {props.mode}</span>
                     </div>
@@ -245,9 +245,9 @@ export async function getStaticProps(context) {
       c2name: post.c2name,
       c2number: post.c2no,
       regfee: post.regfee,
-      deposit: "deposit" in post ? post.deposit : null,
+      // deposit: "deposit" in post ? post.deposit : null,
       mode: post.mode,
-      pricepool: post.pricepool,
+      // pricepool: post.pricepool,
       date: post.date,
       register: post.reg,
       reglink: post.reglink,

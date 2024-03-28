@@ -6,15 +6,15 @@ export default function EventSlider() {
   const shades = [
     {
       label: "Cultural",
-      poster: "/slid.jpeg",
+      poster: "https://i.imgur.com/jhxbaUR.jpeg",
     },
     {
       label: "Technical",
-      poster: "/slid.jpeg",
+      poster: "https://i.imgur.com/MqLZEJH.jpeg",
     },
     {
       label: "Sports",
-      poster: "/slid.jpeg",
+      poster: "https://i.imgur.com/1BrmcVG.jpeg",
     },
   ];
 

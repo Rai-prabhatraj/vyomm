@@ -1,10 +1,10 @@
 {
   "names": [
+    "ALL EVENTS",
     "TECHNICAL",
     "SPORTS",
     "E-SPORTS",
-    "CULTURAL",
-    "COMPETITIONS"
+    "CULTURAL"
   ],
 
   "Day":[
@@ -14,7 +14,41 @@
   "posts": [
     [
       {
-        "id": "hackathon",
+        "id": "ALL EVENTS",
+        "title": "Box-Cricket",
+        "img": "https://i.imgur.com/dwgzmiu.png",
+        "content": "Hold steady for the king of the show, the ultimate showdown!",
+        "description": "Get ready to hit the ground running at the Vyom '24 Box Cricket Competition! Lace up your shoes, grab your bat, and join us for an action-packed day of thrilling box cricket matches. Show off your skills, strategize with your team, and experience the excitement of this offline sporting event. Don't miss out on the chance to be a part of this unforgettable day of competition and camaraderie!",
+        "c1name": "Kumar Aditya",
+        "c2name": "Raj Gorain",
+        "c1no": "6203807070",
+        "c2no": "7004478502",
+        "pricepool": "......",
+        "regfee": 0,
+        "mode": "Central Library",
+        "date": "April 1st to 4th",
+        "embed": false,
+        "reglink": "https://forms.gle/9TmMnrmcepUsq8cQ8",
+        "reg": "Register Now",
+        "ruleheader": "Here are the basic rules and regulations for box cricket:",
+        "rules": {
+          "rule1": "TEAM COMPOSITION:-",
+          "rule2": "Each team typically consists of 8 players, 5 Boys and 3 Girls.",
+          "rule3": "Team forms must be from the same college. For Ex: No members can be shared between RCET, RCPSR, RIPER & GDRCST",
+          "rule4": "There are no restrictions over branch, semester or year.",
+          "rule5": "PLAYING AREA:-",
+          "rule6": "Box cricket is played in a confined space, not in the actual cricket field.The playing area is usually marked by lines or boundaries to denote runs and boundaries.",
+          "rule7": "Matches are typically played with a limited number of overs per side, ranging from 8 overs per innings depending on the format and time available.",
+          "rule8": "Matches may be officiated by one or two umpires, depending on availability.",
+          "rule9": "Good sportsmanship and fair play are encouraged, with players expected to adhere to the rules and respect the decisions of the umpires.",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
+      },
+      {
+        "id": "TECHNICAL",
         "title": "Hackathon",
         "img": "/hackathon/hackathon.jpeg",
         "content": "Hold steady for the king of the show, the ultimate showdown!",
@@ -26,7 +60,82 @@
         "pricepool": "......",
         "regfee": 0,
         "mode": "Offline",
-        "date": "April 4th & 5th (12 hrs)",
+        "date": "April 2nd & 3rd (12 hrs)",
+        "embed": false,
+        "reglink": "https://",
+        "reg": "Register Now",
+        "ruleheader": "Code of Conduct",
+        "rules": {
+          "rule1": "We are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.",
+          "rule2": "We do not tolerate harassment of participants, volunteers, sponsors or anyone else associated with the community in any form.",
+          "rule3": "Language and imagery is not appropriate for any of our events, including talks, webinars, and other online media.",
+          "rule4": "Participants violating these rules may be sanctioned or expelled at the discretion of the organizers.",
+          "rule5": "If you feel uncomfortable or harassed at any of our events or communication channels, please report it to the coordinators via text or voice call.",
+          "rule6": "",
+          "rule7": "",
+          "rule8": "",
+          "rule9": "",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
+      }
+  
+    ],
+    [
+    
+    {
+      "id": "TECHNICAL",
+      "title": "Hackathon",
+      "img": "/hackathon/hackathon.jpeg",
+      "content": "Hold steady for the king of the show, the ultimate showdown!",
+      "description": "Vyom '24 presents you with an incredible 12-hour hackathon that will bring you an opportunity to space out into the realm of coding. Get ready for this game-changing hackathon based on software development and extract your creativity without any barriers. Create solutions to various problem statements and win!",
+      "c1name": "XYZ",
+      "c2name": "ZYY",
+      "c1no": "1234568798",
+      "c2no": "1234567890",
+      "pricepool": "......",
+      "regfee": 0,
+      "mode": "Offline",
+      "date": "April 2nd & 3rd (12 hrs)",
+      "embed": false,
+      "reglink": "https://",
+      "reg": "Register Now",
+      "ruleheader": "Code of Conduct",
+      "rules": {
+        "rule1": "We are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.",
+        "rule2": "We do not tolerate harassment of participants, volunteers, sponsors or anyone else associated with the community in any form.",
+        "rule3": "Language and imagery is not appropriate for any of our events, including talks, webinars, and other online media.",
+        "rule4": "Participants violating these rules may be sanctioned or expelled at the discretion of the organizers.",
+        "rule5": "If you feel uncomfortable or harassed at any of our events or communication channels, please report it to the coordinators via text or voice call.",
+        "rule6": "",
+        "rule7": "",
+        "rule8": "",
+        "rule9": "",
+        "rule10": "",
+        "rule11": "",
+        "rule12": "",
+        "rule13": ""
+      }
+    }
+
+  ],
+    [
+      {
+        "id": "TECHNICAL",
+        "title": "Hackathon",
+        "img": "/hackathon/hackathon.jpeg",
+        "content": "Hold steady for the king of the show, the ultimate showdown!",
+        "description": "Vyom '24 presents you with an incredible 12-hour hackathon that will bring you an opportunity to space out into the realm of coding. Get ready for this game-changing hackathon based on software development and extract your creativity without any barriers. Create solutions to various problem statements and win!",
+        "c1name": "XYZ",
+        "c2name": "ZYY",
+        "c1no": "1234568798",
+        "c2no": "1234567890",
+        "pricepool": "......",
+        "regfee": 0,
+        "mode": "Offline",
+        "date": "April 2nd & 3rd (12 hrs)",
         "embed": false,
         "reglink": "https://",
         "reg": "Register Now",
@@ -50,8 +159,45 @@
     ],
     [
       {
-        "id": "hackathon",
-        "title": "Hackathon",
+        "id": "SPORTS",
+        "title": "Box-Cricket",
+        "img": "https://i.imgur.com/dwgzmiu.png",
+        "content": "Hold steady for the king of the show, the ultimate showdown!",
+        "description": "Get ready to hit the ground running at the Vyom '24 Box Cricket Competition! Lace up your shoes, grab your bat, and join us for an action-packed day of thrilling box cricket matches. Show off your skills, strategize with your team, and experience the excitement of this offline sporting event. Don't miss out on the chance to be a part of this unforgettable day of competition and camaraderie!",
+        "c1name": "Kumar Aditya",
+        "c2name": "Raj Gorain",
+        "c1no": "6203807070",
+        "c2no": "7004478502",
+        "pricepool": "......",
+        "regfee": 0,
+        "mode": "Central Library",
+        "date": "April 1st to 4th",
+        "embed": false,
+        "reglink": "https://forms.gle/9TmMnrmcepUsq8cQ8",
+        "reg": "Register Now",
+        "ruleheader": "Here are the basic rules and regulations for box cricket:",
+        "rules": {
+          "rule1": "TEAM COMPOSITION:-",
+          "rule2": "Each team typically consists of 8 players, 5 Boys and 3 Girls.",
+          "rule3": "Team forms must be from the same college. For Ex: No members can be shared between RCET, RCPSR, RIPER & GDRCST",
+          "rule4": "There are no restrictions over branch, semester or year.",
+          "rule5": "PLAYING AREA:-",
+          "rule6": "Box cricket is played in a confined space, not in the actual cricket field.The playing area is usually marked by lines or boundaries to denote runs and boundaries.",
+          "rule7": "Matches are typically played with a limited number of overs per side, ranging from 8 overs per innings depending on the format and time available.",
+          "rule8": "Matches may be officiated by one or two umpires, depending on availability.",
+          "rule9": "Good sportsmanship and fair play are encouraged, with players expected to adhere to the rules and respect the decisions of the umpires.",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
+      }
+ 
+    ],
+    [
+      {
+        "id": "E-SPORTS",
+        "title": "BGMI",
         "img": "/hackathon/hackathon.jpeg",
         "content": "Hold steady for the king of the show, the ultimate showdown!",
         "description": "Vyom '24 presents you with an incredible 12-hour hackathon that will bring you an opportunity to space out into the realm of coding. Get ready for this game-changing hackathon based on software development and extract your creativity without any barriers. Create solutions to various problem statements and win!",
@@ -87,8 +233,8 @@
     ],
     [
       {
-        "id": "hackathon",
-        "title": "Hackathon",
+        "id": "CULTURAL",
+        "title": "Flash mob",
         "img": "/hackathon/hackathon.jpeg",
         "content": "Hold steady for the king of the show, the ultimate showdown!",
         "description": "Vyom '24 presents you with an incredible 12-hour hackathon that will bring you an opportunity to space out into the realm of coding. Get ready for this game-changing hackathon based on software development and extract your creativity without any barriers. Create solutions to various problem statements and win!",
@@ -122,43 +268,7 @@
       }
  
     ],
-    [
-      {
-        "id": "hackathon",
-        "title": "Hackathon",
-        "img": "/hackathon/hackathon.jpeg",
-        "content": "Hold steady for the king of the show, the ultimate showdown!",
-        "description": "Vyom '24 presents you with an incredible 12-hour hackathon that will bring you an opportunity to space out into the realm of coding. Get ready for this game-changing hackathon based on software development and extract your creativity without any barriers. Create solutions to various problem statements and win!",
-        "c1name": "XYZ",
-        "c2name": "ZYY",
-        "c1no": "1234568798",
-        "c2no": "1234567890",
-        "pricepool": "......",
-        "regfee": 0,
-        "mode": "Offline",
-        "date": "April 4th & 5th (12 hrs)",
-        "embed": false,
-        "reglink": "https://",
-        "reg": "Register Now",
-        "ruleheader": "Code of Conduct",
-        "rules": {
-          "rule1": "We are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.",
-          "rule2": "We do not tolerate harassment of participants, volunteers, sponsors or anyone else associated with the community in any form.",
-          "rule3": "Language and imagery is not appropriate for any of our events, including talks, webinars, and other online media.",
-          "rule4": "Participants violating these rules may be sanctioned or expelled at the discretion of the organizers.",
-          "rule5": "If you feel uncomfortable or harassed at any of our events or communication channels, please report it to the coordinators via text or voice call.",
-          "rule6": "",
-          "rule7": "",
-          "rule8": "",
-          "rule9": "",
-          "rule10": "",
-          "rule11": "",
-          "rule12": "",
-          "rule13": ""
-        }
-      }
- 
-    ],
+    
     [
       {
         "id": "hackathon",

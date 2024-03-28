@@ -6,27 +6,27 @@ export default function RitModel() {
     {
       id: 1,
       title: "Hackathon",
-      image: "/slider/hackatho.jpeg",
+      image: "https://i.imgur.com/HTu82vR.jpeg",
     },
     {
       id: 2,
       title: "Sports",
-      image: "/slider/sport.jpeg",
+      image: "https://i.imgur.com/g5TLvLy.jpeg",
     },
     {
       id: 3,
       title: "E-Sports",
-      image: "/slider/game.jpeg",
+      image: "https://i.imgur.com/T91AHR3.jpeg",
     },
     {
       id: 4,
       title: "Cultural",
-      image: "/slider/cultura.jpeg",
+      image: "https://i.imgur.com/x2pE30n.jpeg",
     },
     {
       id: 5,
       title: "Proshows",
-      image: "/slider/prosho.jpeg",
+      image: "https://i.imgur.com/PI2qcRJ.jpeg",
     },
   ];
 

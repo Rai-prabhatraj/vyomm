@@ -15,6 +15,10 @@ export default function Title({ route }) {
       title: 'Sponsors - Vyom',
       description: "Sponsors from all over the country make Vyom possible! See who's sponsoring us."
     },
+    '/eventlinks': {
+      title: 'Events Links - Vyom',
+      description: "Get all the amazing events registration links"
+    },
     '/teams': {
       title: 'Teams - Vyom',
       description: "Meet the team behind Vyom '24"

@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
     "@vercel/analytics": "^1.0.0",
-    "framer-motion": "^10.9.1",
+    "framer-motion": "^10.18.0",
     "fs.promises": "^0.1.2",
     "gsap": "^3.11.5",
     "hamburger-react": "^2.5.0",

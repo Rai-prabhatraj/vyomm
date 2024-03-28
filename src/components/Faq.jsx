@@ -4,7 +4,7 @@ export default function Faq() {
 
   const questions = [
     {
-      question: "When is conducted?",
+      question: "When it will be conducted?",
       answer: "Vyom'24 is conducted on 4th, 5th and 6th April, 2024."
     },
     {
